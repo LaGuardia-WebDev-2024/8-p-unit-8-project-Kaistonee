@@ -13,10 +13,14 @@ body {
 
 h1{
   font-size: 30px;
+  background-image: linear-gradient(to top, navy, gold);
+  color: transparent;
+  background-clip: text;
+  font-family: fantasy;
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
+  background-image: url(https://m.media-amazon.com/images/I/71+efRjg+3L._AC_UF894,1000_QL80_.jpg);
   background-size: 600px 400px;
   border-radius: 300px;
   border: 5px solid white;
