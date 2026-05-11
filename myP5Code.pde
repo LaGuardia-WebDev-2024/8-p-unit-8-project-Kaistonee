@@ -5,6 +5,8 @@ setup = function() {
     
     drawFish(200, 200, color(200,0,200)); 
     drawFish(300, 200, color(0,200,200));
+    drawA(400, 150);
+    drawP();
     drawName();
 };
 
@@ -13,14 +15,16 @@ draw = function(){
 
 };
 
+
+
 var drawName = function(){
   var textX = random(50, 550);
   var textY = random(50, 250);
-  var yourName = "STAR";
+  var yourName = "🚀";
 
   fill (241,9,55);
   textSize(50);
-  text("HELLO " + yourName, textX, textY);
+  text( yourName, textX, textY);
 }
 
 //🟢mouseClicked Function - will run when mouse is clicked
@@ -37,6 +41,21 @@ var drawFish = function(fishX, fishY, fishColor){
   fill(fishColor);
   text("𓆝", fishX, fishY);
 };
+
+
+//🟡drawFish Function - will run when called
+var drawA = function(AX, AY){
+  textSize(80);
+  text("👽", AX, AY);
+};
+
+//🟡drawFish Function - will run when called
+var drawP = function(PX, PY){
+  textSize(80);
+  text", AX, AY);
+};
+
+
 
 
 
