@@ -36,8 +36,8 @@ mouseClicked = function(){
 
 //🟡drawFish Function - will run when called
 var drawT = function(TX, TY){
-  textSize(400);
-  text("🚃", TX, TY);
+  textSize(200);
+  text("🚃", TX, TY);//draw trains!
 };
 
 
